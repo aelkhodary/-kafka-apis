@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89611b88-821b-4b83-bd36-5b98292ec349" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kafka-basics/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-producer-twitter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-producer-twitter/src/main/java/com/kafka/api/twitter/TwitterProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-apis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-apis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kafka/api/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/api/ConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kafka/api/ConsumerDemoGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/api/ConsumerDemoGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kafka/api/ConsumerDemoWithThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/api/ConsumerDemoWithThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kafka/api/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/api/ProducerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kafka/api/ProducerDemoWithCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/api/ProducerDemoWithCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kafka/api/ProducerDemoWithKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/api/ProducerDemoWithKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/api/ConsumerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/api/ConsumerDemoGroups.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/api/ConsumerDemoWithThread$ConsumerRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/api/ConsumerDemoWithThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/api/ProducerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/api/ProducerDemoWithCallback$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/api/ProducerDemoWithCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/api/ProducerDemoWithKey$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/api/ProducerDemoWithKey.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b0HCddTi89MBb9SHtu9I49kxVN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/api" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kafka.api.twitter" />
+      <recent name="" />
+      <recent name="com.kafka.api" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/api" />
+      <recent name="$PROJECT_DIR$/kafka-producer-twitter/src/main/java" />
+      <recent name="$PROJECT_DIR$/kafka-basics/src/main/java" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn package" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="ConsumerDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kafka.api.ConsumerDemo" />
+      <module name="kafka-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kafka.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerDemoGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kafka.api.ConsumerDemoGroups" />
+      <module name="kafka-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kafka.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kafka.api.ProducerDemo" />
+      <module name="kafka-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kafka.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kafka.api.Test" />
+      <module name="kafka-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kafka.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwitterProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kafka.api.twitter.TwitterProducer" />
+      <module name="kafka-apis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kafka.api.twitter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.ProducerDemo" />
+        <item itemvalue="Application.ConsumerDemo (1)" />
+        <item itemvalue="Application.ConsumerDemoGroups" />
+        <item itemvalue="Application.TwitterProducer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89611b88-821b-4b83-bd36-5b98292ec349" name="Default Changelist" comment="" />
+      <created>1587761964463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587761964463</updated>
+      <workItem from="1587761968632" duration="17875000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser" timestamp="1587766549047">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587766549047" />
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1587930302604">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1587930302604" />
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892733" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1587930302603">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1587930302603" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892732" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1587930302603">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1587930302603" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892731" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1587930302604">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1587930302604" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892733" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1587930169141">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1587930169141" />
+    <state x="0" y="38" width="929" height="674" key="new project wizard" timestamp="1587927157861">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="0" y="38" width="929" height="674" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1587927157861" />
+    <state x="561" y="265" width="670" height="675" key="run.anything.popup" timestamp="1587929203652">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="265" width="670" height="675" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1587929203652" />
+  </component>
+</project>
