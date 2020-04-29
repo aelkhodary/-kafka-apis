@@ -11,12 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89611b88-821b-4b83-bd36-5b98292ec349" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka-consumer-elasticsearch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer-elasticsearch/src/main/java/com/kafka/api/search/ElasticSearchConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-consumer-elasticsearch/src/main/java/com/kafka/api/search/ElasticSearchConsumer_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-consumer-elasticsearch/src/main/java/com/kafka/api/search/ElasticSearchConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer-elasticsearch/src/main/java/com/kafka/api/search/ElasticSearchConsumer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +57,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kafka.api.search" />
       <recent name="com.kafka.api.twitter" />
       <recent name="" />
       <recent name="com.kafka.api" />
@@ -83,13 +81,13 @@
       <command value="mvn package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ElasticSearchConsumer">
-    <configuration name="ConsumerDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kafka.api.ConsumerDemo" />
-      <module name="kafka-basics" />
+  <component name="RunManager" selected="Application.ElasticSearchConsumer_1">
+    <configuration name="ElasticSearchConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kafka.api.search.ElasticSearchConsumer" />
+      <module name="kafka-consumer-elasticsearch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kafka.api.*" />
+          <option name="PATTERN" value="com.kafka.api.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElasticSearchConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kafka.api.search.ElasticSearchConsumer" />
+    <configuration name="ElasticSearchConsumer_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kafka.api.search.ElasticSearchConsumer_1" />
       <module name="kafka-consumer-elasticsearch" />
       <extension name="coverage">
         <pattern>
@@ -151,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ElasticSearchConsumer_1" />
         <item itemvalue="Application.ElasticSearchConsumer" />
         <item itemvalue="Application.ProducerDemoWithCallback" />
         <item itemvalue="Application.ProducerDemo" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.ConsumerDemo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +169,7 @@
       <updated>1587761964463</updated>
       <workItem from="1587761968632" duration="17875000" />
       <workItem from="1587932956041" duration="625000" />
-      <workItem from="1588107419652" duration="3214000" />
+      <workItem from="1588107419652" duration="8699000" />
     </task>
     <servers />
   </component>
@@ -191,29 +189,33 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="384" y="141" key="#Project_Structure" timestamp="1588113850084">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="384" y="141" key="#Project_Structure/0.0.1792.1120@0.0.1792.1120" timestamp="1588113850084" />
     <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser" timestamp="1587766549047">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587766549047" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1587933287503">
+    <state width="1750" height="345" key="GridCell.Tab.0.bottom" timestamp="1588119589270">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1587933287503" />
+    <state width="1750" height="345" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1588119589270" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892733" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1587933287502">
+    <state width="1750" height="345" key="GridCell.Tab.0.center" timestamp="1588119589269">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1587933287502" />
+    <state width="1750" height="345" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1588119589269" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892732" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1587933287502">
+    <state width="1750" height="345" key="GridCell.Tab.0.left" timestamp="1588119589268">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1587933287502" />
+    <state width="1750" height="345" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1588119589268" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892731" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1587933287503">
+    <state width="1750" height="345" key="GridCell.Tab.0.right" timestamp="1588119589269">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1587933287503" />
+    <state width="1750" height="345" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1588119589269" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892733" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1587933117077">
       <screen x="0" y="0" width="1792" height="1120" />
