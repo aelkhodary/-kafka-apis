@@ -11,8 +11,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89611b88-821b-4b83-bd36-5b98292ec349" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka-consumer-elasticsearch/src/main/java/com/kafka/api/search/ElasticSearchConsumer_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-connect/connectors/connect-standalone.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-connect/connectors/kafka-connect-twitter/annotations-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-connect/connectors/kafka-connect-twitter/connect-utils-0.3.105.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-connect/connectors/kafka-connect-twitter/freemarker-2.3.25-incubating.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-connect/connectors/kafka-connect-twitter/guava-18.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-connect/connectors/kafka-connect-twitter/jackson-annotations-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-connect/connectors/kafka-connect-twitter/jackson-core-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-connect/connectors/kafka-connect-twitter/jackson-databind-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-connect/connectors/kafka-connect-twitter/javassist-3.19.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-connect/connectors/kafka-connect-twitter/kafka-connect-twitter-0.2.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-connect/connectors/kafka-connect-twitter/reflections-0.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-connect/connectors/kafka-connect-twitter/twitter4j-core-4.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-connect/connectors/kafka-connect-twitter/twitter4j-stream-4.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-connect/connectors/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-connect/connectors/twitter.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-consumer-elasticsearch/src/main/java/com/kafka/api/search/ElasticSearchConsumer_4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-consumer-elasticsearch/src/main/java/com/kafka/api/search/ElasticSearchConsumer_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer-elasticsearch/src/main/java/com/kafka/api/search/ElasticSearchConsumer_3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +65,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kafka-connect/connectors" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,6 +86,7 @@
       <recent name="com.kafka.api" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kafka-connect/connectors" />
       <recent name="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/api" />
       <recent name="$PROJECT_DIR$/kafka-producer-twitter/src/main/java" />
       <recent name="$PROJECT_DIR$/kafka-basics/src/main/java" />
@@ -170,7 +187,7 @@
       <workItem from="1587761968632" duration="17875000" />
       <workItem from="1587932956041" duration="625000" />
       <workItem from="1588107419652" duration="9614000" />
-      <workItem from="1588187608917" duration="4376000" />
+      <workItem from="1588187608917" duration="7388000" />
     </task>
     <servers />
   </component>
@@ -198,25 +215,25 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587766549047" />
-    <state width="1750" height="345" key="GridCell.Tab.0.bottom" timestamp="1588207565260">
+    <state width="1750" height="345" key="GridCell.Tab.0.bottom" timestamp="1588284307222">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="345" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1588207565260" />
+    <state width="1750" height="345" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1588284307222" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892733" />
-    <state width="1750" height="345" key="GridCell.Tab.0.center" timestamp="1588207565259">
+    <state width="1750" height="345" key="GridCell.Tab.0.center" timestamp="1588284307222">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="345" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1588207565259" />
+    <state width="1750" height="345" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1588284307222" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892732" />
-    <state width="1750" height="345" key="GridCell.Tab.0.left" timestamp="1588207565259">
+    <state width="1750" height="345" key="GridCell.Tab.0.left" timestamp="1588284307221">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="345" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1588207565259" />
+    <state width="1750" height="345" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1588284307221" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892731" />
-    <state width="1750" height="345" key="GridCell.Tab.0.right" timestamp="1588207565260">
+    <state width="1750" height="345" key="GridCell.Tab.0.right" timestamp="1588284307222">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="345" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1588207565260" />
+    <state width="1750" height="345" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1588284307222" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892733" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1587933117077">
       <screen x="0" y="0" width="1792" height="1120" />

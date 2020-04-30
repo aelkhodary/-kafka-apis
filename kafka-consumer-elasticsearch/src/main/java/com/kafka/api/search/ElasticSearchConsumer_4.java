@@ -12,6 +12,8 @@ import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.common.serialization.StringDeserializer;
+import org.elasticsearch.action.bulk.BulkRequest;
+import org.elasticsearch.action.bulk.BulkResponse;
 import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.action.index.IndexResponse;
 import org.elasticsearch.client.RequestOptions;
@@ -27,7 +29,7 @@ import java.time.Duration;
 import java.util.Collections;
 import java.util.Properties;
 
-public class ElasticSearchConsumer_3 {
+public class ElasticSearchConsumer_4 {
 
     //elasticSearch client
     public static RestHighLevelClient createClient() {
@@ -60,10 +62,10 @@ public class ElasticSearchConsumer_3 {
         props.setProperty(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "127.0.0.1:9092");
         props.setProperty(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
         props.setProperty(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
-        props.setProperty(ConsumerConfig.GROUP_ID_CONFIG, "kafka-demo8-elasticsearch");
+        props.setProperty(ConsumerConfig.GROUP_ID_CONFIG, "kafka-demo12-elasticsearch");
         props.setProperty(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");
         props.setProperty(ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG, "false");// disabled auto commit of offsets
-        props.setProperty(ConsumerConfig.MAX_POLL_RECORDS_CONFIG, "10");
+        props.setProperty(ConsumerConfig.MAX_POLL_RECORDS_CONFIG, "100");
         //2-create consumer
         KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(props);
         //3-Subscribe consumer to our topic
@@ -72,7 +74,7 @@ public class ElasticSearchConsumer_3 {
     }
 
     public static void main(String[] args) {
-        Logger logger = LoggerFactory.getLogger(ElasticSearchConsumer_3.class.getName());
+        Logger logger = LoggerFactory.getLogger(ElasticSearchConsumer_4.class.getName());
         RestHighLevelClient client = createClient();
 
         //"twitter_tweets"
@@ -86,7 +88,7 @@ public class ElasticSearchConsumer_3 {
             ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(100));
 
             logger.info("Received " + records.count() + " records");
-
+            BulkRequest bulkRequest = new BulkRequest();
             for (ConsumerRecord<String, String> record : records) {
                 //2 strategies to make id
                 // first option kafka generic id
@@ -110,21 +112,14 @@ public class ElasticSearchConsumer_3 {
                     indexRequest.type("tweets");
                     indexRequest.id(id);
                     indexRequest.source(jsonString, XContentType.JSON);
-                    try {
-                        IndexResponse indexResponse = client.index(indexRequest, RequestOptions.DEFAULT);
+                    bulkRequest.add(indexRequest); //we add to our bulk request(takes no time)
 
-                        logger.info("id--->" + indexResponse.getId());
-
-                    } catch (IOException e) {
-                        logger.error("Can not create elastic search :" + e);
-                    }
-
-                    try {
-                        Thread.sleep(10);// introduce a small delay
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
                 }
+            }
+            try {
+                BulkResponse bulkItemResponses=client.bulk(bulkRequest , RequestOptions.DEFAULT);
+            } catch (IOException e) {
+                e.printStackTrace();
             }
             logger.info("Commiting offsets....");
             consumer.commitSync();
