@@ -11,11 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89611b88-821b-4b83-bd36-5b98292ec349" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer-elasticsearch/src/main/java/com/kafka/api/search/ElasticSearchConsumer_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-consumer-elasticsearch/src/main/java/com/kafka/api/search/ElasticSearchConsumer_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-consumer-elasticsearch/kafka-consumer-elasticsearch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer-elasticsearch/kafka-consumer-elasticsearch.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-consumer-elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer-elasticsearch/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +81,7 @@
       <command value="mvn package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ElasticSearchConsumer_2">
+  <component name="RunManager" selected="Application.ElasticSearchConsumer_3">
     <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kafka.api.ConsumerDemo" />
       <module name="kafka-basics" />
@@ -137,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemoWithCallback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kafka.api.ProducerDemoWithCallback" />
-      <module name="kafka-basics" />
+    <configuration name="ElasticSearchConsumer_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kafka.api.search.ElasticSearchConsumer_3" />
+      <module name="kafka-consumer-elasticsearch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kafka.api.*" />
+          <option name="PATTERN" value="com.kafka.api.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ElasticSearchConsumer_3" />
         <item itemvalue="Application.ElasticSearchConsumer_2" />
         <item itemvalue="Application.ConsumerDemo" />
         <item itemvalue="Application.ElasticSearchConsumer_1" />
         <item itemvalue="Application.ElasticSearchConsumer" />
-        <item itemvalue="Application.ProducerDemoWithCallback" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +170,7 @@
       <workItem from="1587761968632" duration="17875000" />
       <workItem from="1587932956041" duration="625000" />
       <workItem from="1588107419652" duration="9614000" />
-      <workItem from="1588187608917" duration="2485000" />
+      <workItem from="1588187608917" duration="4376000" />
     </task>
     <servers />
   </component>
@@ -201,25 +198,25 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587766549047" />
-    <state width="1750" height="345" key="GridCell.Tab.0.bottom" timestamp="1588188370391">
+    <state width="1750" height="345" key="GridCell.Tab.0.bottom" timestamp="1588207565260">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="345" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1588188370391" />
+    <state width="1750" height="345" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1588207565260" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892733" />
-    <state width="1750" height="345" key="GridCell.Tab.0.center" timestamp="1588188370390">
+    <state width="1750" height="345" key="GridCell.Tab.0.center" timestamp="1588207565259">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="345" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1588188370390" />
+    <state width="1750" height="345" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1588207565259" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892732" />
-    <state width="1750" height="345" key="GridCell.Tab.0.left" timestamp="1588188370390">
+    <state width="1750" height="345" key="GridCell.Tab.0.left" timestamp="1588207565259">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="345" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1588188370390" />
+    <state width="1750" height="345" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1588207565259" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892731" />
-    <state width="1750" height="345" key="GridCell.Tab.0.right" timestamp="1588188370390">
+    <state width="1750" height="345" key="GridCell.Tab.0.right" timestamp="1588207565260">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="345" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1588188370390" />
+    <state width="1750" height="345" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1588207565260" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892733" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1587933117077">
       <screen x="0" y="0" width="1792" height="1120" />
