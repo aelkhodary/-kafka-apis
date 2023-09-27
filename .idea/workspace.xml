@@ -11,21 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89611b88-821b-4b83-bd36-5b98292ec349" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_api_2_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_json_2_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_streams_2_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rocksdb_rocksdbjni_5_18_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-streams-filter-tweets/kafka-streams-filter-tweets.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-streams-filter-tweets/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-streams-filter-tweets/src/main/java/com/kafka/api/stream/StreamsFilterTweets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +170,8 @@
       <workItem from="1587761968632" duration="17875000" />
       <workItem from="1587932956041" duration="625000" />
       <workItem from="1588107419652" duration="9614000" />
-      <workItem from="1588187608917" duration="10747000" />
+      <workItem from="1588187608917" duration="10998000" />
+      <workItem from="1591873582154" duration="67000" />
     </task>
     <servers />
   </component>
@@ -212,25 +199,25 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587766549047" />
-    <state width="1750" height="345" key="GridCell.Tab.0.bottom" timestamp="1588284307222">
+    <state width="1750" height="345" key="GridCell.Tab.0.bottom" timestamp="1588387519789">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="345" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1588284307222" />
+    <state width="1750" height="345" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1588387519789" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892733" />
-    <state width="1750" height="345" key="GridCell.Tab.0.center" timestamp="1588284307222">
+    <state width="1750" height="345" key="GridCell.Tab.0.center" timestamp="1588387519789">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="345" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1588284307222" />
+    <state width="1750" height="345" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1588387519789" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892732" />
-    <state width="1750" height="345" key="GridCell.Tab.0.left" timestamp="1588284307221">
+    <state width="1750" height="345" key="GridCell.Tab.0.left" timestamp="1588387519789">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="345" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1588284307221" />
+    <state width="1750" height="345" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1588387519789" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892731" />
-    <state width="1750" height="345" key="GridCell.Tab.0.right" timestamp="1588284307222">
+    <state width="1750" height="345" key="GridCell.Tab.0.right" timestamp="1588387519789">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="345" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1588284307222" />
+    <state width="1750" height="345" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1588387519789" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/1792.0.1366.946/0.0.1792.1120@0.0.1792.1120" timestamp="1587770892733" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1587933117077">
       <screen x="0" y="0" width="1792" height="1120" />
